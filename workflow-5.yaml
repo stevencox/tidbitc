@@ -1,0 +1,27 @@
+header:
+  name: workflow-5
+  theme: ananke
+  title: What phenotypes are associated with chemical exposure in a cohort?
+body:
+  - name: Question
+    text: |
+      This is the biomedical question.
+      ![Overview](/thumbnail_JD.jpg)
+  - name: Background
+    issue_id: 36
+    text: |
+      ![Background](/thumbnail_JD.jpg)
+  - name: Biomedical Approach
+    text: |
+      This is the reasoning pathway.
+      ![BiomedicalApproach](/thumbnail_approach.jpg)
+  - name: Technical Approach (CWL)
+    text: |
+      We created a Common Workflow Language workflow couple to the
+      Ros query framework.
+      ![TechnicalApproach](/thumbnail_wf5.jpg)
+  - name: Technical Approach (TranQL)
+    text: |
+      We developed a query language called TranQL.
+      It's suntax is similar to SQL and it supports the Translator standard reasoner API.
+      ![TechnicalApproach](/workflow5-tranql.jpg)
