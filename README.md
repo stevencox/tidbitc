@@ -36,4 +36,4 @@ cd <tidbit-name>
 hugo server -D
 ```
 
-Now, visit [http://localhost:1313](http://localhost:1313)
+Then, visit [http://localhost:1313](http://localhost:1313)
