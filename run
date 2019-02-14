@@ -1,2 +1,2 @@
 rm -rf workflow-5
-PYTHONPATH=~/dev/ros python gentidbit.py --conf workflow-5.yaml
+python gentidbit.py --conf workflow-5.yaml
