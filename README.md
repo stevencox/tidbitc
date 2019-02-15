@@ -25,5 +25,15 @@ Install the Hugo website generator. (On OS X, `brew install hugo`).
 
 ## Run
 
-python gentidbit.py <config-file>
+Generate the Hugo project from the tidbit configuration.
 
+```python gentidbit.py <config-file>```
+
+Change to the new directory. It will be named after the value of the `name` tag in the config file.
+
+```
+cd <tidbit-name>
+hugo server -D
+```
+
+Then, visit [http://localhost:1313](http://localhost:1313)
