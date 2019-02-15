@@ -1,26 +1,26 @@
 header:
   name: workflow-5
-  theme: ananke
   title: What phenotypes are associated with chemical exposure in a cohort?
+  theme: ananke
 body:
-  - name: Question
-    text: |
-      This is the biomedical question.
-      ![Overview](/thumbnail_JD.jpg)
-  - name: Background
+  - name: "1_Background"
     issue_id: 36
     text: |
       ![Background](/thumbnail_JD.jpg)
-  - name: Biomedical Approach
+  - name: "2_Question"
+    text: |
+      This is the biomedical question.
+      ![Overview](https://github.com/stevencox/tidbitc/blob/master/static/thumbnail_JD.jpg?raw=true)
+  - name: 3_Biomedical Approach
     text: |
       This is the reasoning pathway.
       ![BiomedicalApproach](/thumbnail_approach.jpg)
-  - name: Technical Approach (CWL)
+  - name: 4_Technical Approach (CWL)
     text: |
       We created a Common Workflow Language workflow couple to the
       Ros query framework.
       ![TechnicalApproach](/thumbnail_wf5.jpg)
-  - name: Technical Approach (TranQL)
+  - name: 5_Technical Approach (TranQL)
     text: |
       We developed a query language called TranQL.
       It's suntax is similar to SQL and it supports the Translator standard reasoner API.

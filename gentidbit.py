@@ -52,6 +52,7 @@ theme = "{theme}"
             body = f"{body}\n{text}"
 
         if body is not None:
+            post_name = post_name.replace (" ","_")
             make_post = f"hugo new '{post_name}'"
             print (f"--- {make_post}")
             os.system (make_post)
